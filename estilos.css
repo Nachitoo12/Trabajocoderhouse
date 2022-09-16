@@ -126,6 +126,13 @@ background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 .cuerpo2 h2
 {
     padding-bottom: 5px;
+    
+}
+.cuerpo2 h3
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 3em;
 }
 .cuerpo2 p
 {
@@ -135,19 +142,66 @@ background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 .cuerpo2 img
 {
- box-shadow: 5px 1px 1px 3px #909090;
- border-radius: 10px;
- padding-bottom: 10px;
+ border-radius: 40px;
+ padding: 25px;
  
 }
+.grupo__1
+{
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(-20deg, #e9defa 50%, #fbfcdb 60%);
+}
 
-
-
-
-
-
-
-
+.grupo__1 h2
+{
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+    text-decoration: underline;
+}
+.grupo__1 figure
+{
+    align-items: center;
+}
+.grupo__1 figure img
+{
+    height: 450px;
+    padding: 20px;
+    border-radius: 30px;
+    cursor:pointer;
+    transition: all 400ms ease;
+}
+.grupo__1 figure img:hover
+{
+    height: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.grupo__1 h4
+{
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 1.2;
+}
+.grupo__1 p
+{
+    font-size: 1.4em;
+    padding: 10px;
+    color: #1822ac;
+}
+.grupo__1 a
+{
+    background-color:black;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.grupo__1 a:hover
+{
+    color: #efefef;  
+}
 
 
 
@@ -260,7 +314,7 @@ color: aqua;
 
 .pie-pagina .grupo-2
 {
-    background-color: #0a1a0a;
+    background-color: #010301;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
