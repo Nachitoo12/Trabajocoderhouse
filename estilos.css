@@ -148,6 +148,7 @@ background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 .grupo__1
 {
+    margin: auto;
     text-align: center;
     padding: 10px;
     background-image: linear-gradient(-20deg, #e9defa 50%, #fbfcdb 60%);
@@ -324,34 +325,70 @@ color: aqua;
     font-size: 15px;
 }
 
+@media (max-width:600px){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 600px){
-    header{
-        flex-direction: column;
-    }
-    nav a
+    header
     {
-        padding: 10px 10px;
+        padding: 5px 
     }
-    .logo img{
+    .logo 
+    {
         display: none;
     }
-     }
+    nav a {
+        padding: 10px;
+    }
+    .btn h3{
+        font-size: 50px;
+    }
+    .inicio img{
+        height: 400px;
+    }
+    .img2 img{
+        height: 350px;
+    }
+  .btn_h{
+    font-size: small;
+    }  
+    .box img{
+        display: none;
+    }
+
+    .box h2{
+    display: none;
+}
+    .box p{
+        display: none;
+    }
+    .red-social
+    {
+        align-items: center;
+        
+    }
+    .red-social{
+        display: none;
+    }
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
