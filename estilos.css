@@ -411,9 +411,16 @@ color: aqua;
         height: 300px;
         border:solid #A6A7BD
     }
+    .col img
+    {
+    height: 300px;
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
     .card
     {
-    left: 15%;
+    left: 10%;
     }
 
     .grupo__1 figure img
