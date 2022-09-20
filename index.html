@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosarioi</title>  
      <link rel="stylesheet" href="estilos.css">
+     <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
      <script src="https://kit.fontawesome.com/f3288c7ca8.js" crossorigin="anonymous"></script>
 
 
@@ -13,47 +15,73 @@
 </head>
 <body>
     <!---Logoo-->
-    <header>
-        <a href="index.html" class="logo">
-            <img src="./img/logo.jpg" alt="logo de la compania">
-            <h2 class="nombre-compania">Rosa<span class="span">rioi</span></h2>
-        </a>
-         
-        <nav>
-
-            <a href="index.html" class="nav-link">Inicio</a>
-            <a href="vuelos.html" class="nav-link">Vuelos</a>
-            <a href="crucero.html" class="nav-link">Cruceros</a>  
-            <a href="ofertas.html" class="nav-link">Ofertas</a>
-            <a href="contacto.html" class="nav-link">Contactos</a>
-
-        </nav>
-
-    </header>   
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt="" width="150px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vuelos.html">Vuelos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="crucero.html">Cruceros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
    
  
-    <div class="btn">
-        <h3>Viaja Con Rosa<span>rioi</span></h3>
-    </div>
 
     <div class="inicio">
+            <h3>Viaja con Rosa<span>rioi</span></h3>
             <img src="./img/Inicio.jpg" alt="">
             <p>Rosa<span>rioi</span></p>
             <p> Argentina para el mundo</p>
+            <img src="./img/inicio2.png" alt="">
     </div>
-
-    <div class="img2">
-        <img src="./img/inicio2.png" alt="">
-    </div>
-
     <div class="btn_h">
         <h3>Quien es Rosa<span>rioi</span>?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, temporibus.
-            Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Aperiam dolorum veritatis ipsa rerum officia cumque amet ipsum cupiditate odio nihil.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur expedita, blanditiis nemo minus ab explicabo. Voluptatem<br> doloribus tempore suscipit aut sint! Officia reiciendis delectus corrupti quisquam tenetur ipsam, tempore eligendi.
-        </p>
+        <p>Rosarioi es una empresa que ayuda a la gente a cumplir sus sueños<br>
+          Estamos en el mundo hace 5 años y vamos por muchos años <br>
+          A seguir cumpliendo los sueños a la gentes </p>  
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="pie-pagina">
         <div class="grupo-1">
@@ -85,6 +113,13 @@
     </footer>
 
 
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 
