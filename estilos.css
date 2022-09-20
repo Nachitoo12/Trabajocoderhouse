@@ -99,7 +99,7 @@ span
 }
 .card
 {
-    left: 20%;
+    left: 15%;
 }
 .col p
 {
@@ -398,6 +398,61 @@ color: aqua;
  
 
 @media screen and (max-width:800px) {
+    .inicio img
+    {
+        height: 300px;
+    }
+    .cuerpo2 img
+    {
+        display: block;
+        margin: 0% auto;
+        border-radius: 40px;
+        padding: 15px;
+        height: 300px;
+        border:solid #A6A7BD
+    }
+
+    .grupo__1 figure img
+    {
+        height: 400px;
+        padding: 20px;
+        border-radius: 30px;
+        cursor:pointer;
+        transition: all 400ms ease;
+    }
+    .grupo__1 figure img:hover
+    {
+    height: 350px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .pie-pagina .grupo-1
 {
     width: 90%;
@@ -406,7 +461,7 @@ color: aqua;
     padding: 35px 0px;
 
     }
-}
+
     
 
 
