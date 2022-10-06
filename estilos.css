@@ -259,8 +259,64 @@ span
     color: #efefef;  
 }
 
+/* 4to framework*/ 
 
+.destino_
+{
+    text-align: center;
+    position: relative;
+    background-image:linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 
+}
+
+.destino_ img
+{
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    transition: all 800ms ease;
+}
+.destino_ img:hover
+{
+    height: 300px;
+}
+
+.destino_ h3
+{
+    text-decoration: underline;
+    font-size: 3em;
+    font-weight: 5px;
+    color: #494ed3;
+    padding: 15px;
+}
+
+.destino_ h5
+{
+    font-size: 1.5em;
+    color: #1822ac;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.destino_ p
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.destino_ a
+{
+    padding: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-size: bold;
+    font-size: 1.5em;
+    background-color:#0a141d;
+    border-radius: 10px;
+    width: 20px;
+    
+}
 
 
 
