@@ -1,0 +1,57 @@
+.contacto_
+{ 
+  text-align: center; 
+    h2 {
+        padding: 10px;
+        font-size: 3em;
+        color: #CD23DB;
+        font-weight: bold;
+        text-decoration: underline;
+        background-image:linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+}
+
+.form_
+{
+    padding: 5%;
+    font-size: 1.5em;
+    background-image: url(..//img/email.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background: cover;
+    form {
+        color: black;
+        font-size: 1.5em;
+        padding: 10px;
+       
+    }
+}
+
+.enviar
+{
+    align-items: center;
+    a {
+        color: black;
+        padding-left: 50%;
+        font-size: 2em;
+        text-decoration: none;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+}
+
+.map_
+{   
+    text-align: center;
+    background-image:linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    h3 {
+        padding: 40px;
+        font-size: 3em;
+        color: #CD23DB;
+        text-decoration: underline;
+    }
+    iframe {
+        align-items: center;
+        padding: 10px;
+    }
+}
